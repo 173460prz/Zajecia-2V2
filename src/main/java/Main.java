@@ -19,7 +19,7 @@ public class Main {
       }
     } */
   
-    int i=0;
+   /* int i=0;
     int b=0;
     while(i<5)
       { 
@@ -29,7 +29,32 @@ public class Main {
       b = b + a*a;
       i++;
       }
-    System.out.println(b);
+    System.out.println(b); */
+
+    /* int i=0;
+    int b=0;
+
+    while (i<100)
+      {
+        if (i%2==1)
+        {
+          System.out.println(i);
+          b=b+i;
+        }
+        i++;
+      }
+    System.out.println(b); */
+
+  int i = 0;
+  int b = 0;
+
+    while (i<301)
+      {
+        b = (9/5)*i+32;
+        System.out.println(i + " " + b);
+        i=i+20;
+      }
+    
   }
   // @Test
   // void addition() {
